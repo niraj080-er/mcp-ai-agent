@@ -27,6 +27,36 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# UI
+*.log
+*.pot
+./react-app/node_modules/
+./react-app/build/
+./react-app/dist/
+.package-lock.json
+.yarn/
+./react-app/yarn.lock
+*.ts
+*.js
+*.json
+*.map
+*.txt
+*readme*
+*LICENSE*
+*.cts
+*.mts
+*.tsx
+*.node
+*.svelte
+*.flow
+*.vue
+*.md
+*.cjs
+*.mjs
+*jsesc/
+*.bnf
+*.babelrc
+
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.

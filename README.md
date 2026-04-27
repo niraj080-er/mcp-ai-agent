@@ -159,3 +159,5 @@ If you found this useful or want to collaborate, feel free to connect.
 ---
 
 ⭐ If you like this project, please give it a star!
+
+![Architecture](Architecture.png)

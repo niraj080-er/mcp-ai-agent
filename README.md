@@ -61,26 +61,12 @@ User → FastAPI → Chat Service → LLM → Tool Selection → MCP Client → 
 
 ---
 
-## 📁 Project Structure
-
-wallet-agent/
-├── app/                # FastAPI backend  
-├── ui/                 # React frontend  
-├── configs/            # Model configs  
-├── tests/              # Test cases  
-├── .env                # Environment variables  
-├── requirements.txt  
-├── run.sh              # One-command runner  
-└── README.md  
-
----
-
 ## 🚀 Quick Start
 
 1. Clone Repository
 
 git clone https://github.com/niraj080-er/mcp-ai-agent.git  
-cd wallet-ai-agent  
+cd wallet-ai-agent/wallet-agent
 
 ---
 
@@ -103,13 +89,7 @@ MCP_AUTH_TOKEN=your_token_here
 
 ---
 
-4. Run Application
-
-bash run.sh  
-
----
-
-5. Access
+4. Access
 
 API Docs → http://localhost:8000/docs  
 UI → http://localhost:5173  

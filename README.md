@@ -79,7 +79,7 @@ wallet-agent/
 
 1. Clone Repository
 
-git clone https://github.com/your-username/wallet-ai-agent.git  
+git clone https://github.com/niraj080-er/mcp-ai-agent.git  
 cd wallet-ai-agent  
 
 ---
@@ -120,7 +120,7 @@ UI → http://localhost:5173
 
 User Input:
 
-Get wallet details for mobile number 9876543210  
+Get wallet details for mobile number 1234567890  
 
 System Flow:
 
@@ -137,7 +137,7 @@ System Flow:
 User: Show wallet details  
 Agent: Please provide mobile number  
 
-User: 9876543210  
+User: 1234567890  
 Agent: Here are the wallet details...  
 
 ---
@@ -169,18 +169,6 @@ APIs are no longer called — they are intelligently selected and executed by AI
 - Streaming responses  
 - Observability (logging & tracing)  
 - Authentication & RBAC  
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or submit PRs.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 

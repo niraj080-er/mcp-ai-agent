@@ -1,0 +1,30 @@
+# 🚀 Core API
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+
+# 🧠 Data Validation
+pydantic==2.11.4
+pydantic-settings==2.9.1
+
+# 📦 Utilities
+pyyaml==6.0.2
+httpx==0.28.1
+
+# 🤖 LangChain Ecosystem (STABLE COMPATIBLE SET)
+langchain==0.3.21
+langchain-core==0.3.49
+langchain-community==0.3.20
+
+# 🔌 Model Providers
+langchain-openai==0.3.12
+langchain-google-genai==2.0.10
+langchain-anthropic==0.3.10
+
+# 🧠 LLM SDKs
+openai>=1.75.0,<2.0.0
+anthropic>=0.40.0,<1.0.0
+google-generativeai>=0.8.4,<1.0.0
+
+# 🔄 LangGraph (Agent Orchestration)
+langgraph==0.4.5
+langgraph-checkpoint==2.0.3

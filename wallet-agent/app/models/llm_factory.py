@@ -9,6 +9,7 @@ from langchain_openai import ChatOpenAI
 from app.core.config import get_settings, load_yaml_config
 from app.core.exceptions import ConfigurationError
 from app.models.provider_config import ProviderConfig
+from app.models.local_llm import LocalLLM
 
 
 class LLMFactory:
@@ -57,6 +58,15 @@ class LLMFactory:
             return ChatAnthropic(
                 api_key=self.settings.anthropic_api_key,
                 **common_kwargs,
+            )
+        
+        if cfg.type == "openai_compatible":
+            return LocalLLM(
+                api_url=cfg.api_url,
+                model_name=cfg.model,
+                temperature=cfg.temperature,
+                top_p=cfg.top_p,
+                max_tokens=cfg.max_tokens,
             )
 
         raise ConfigurationError(f"Unsupported provider type: {cfg.type}")

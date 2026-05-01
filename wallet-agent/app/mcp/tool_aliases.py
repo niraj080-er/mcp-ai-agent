@@ -171,9 +171,7 @@ TOOL_DESCRIPTIONS = {
 
     # WALLET
     "get_wallet_balance": (
-        "Get wallet balance only when walletId, programManagerId, and tagId are known. "
-        "Do not use this directly if the user only provides personId, mobileNumber, or cifNumber. "
-        "First use get_wallet_by_personId, get_wallet_by_mobile, or get_wallet_by_cif to fetch walletId/tagId."
+        "Get wallet balance only when walletId, programManagerId, and tagId are known."
     ),
     "get_wallet_balance_by_date": (
         "Get wallet balance as of a specific endDate. Requires walletId, programManagerId, tagId, and endDate. "

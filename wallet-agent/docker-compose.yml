@@ -1,0 +1,16 @@
+services:
+  wallet-agent:
+    image: wallet-agent:latest   
+    container_name: wallet-agent
+    ports:
+      - "8000:8080"
+    env_file:
+      - .env
+    volumes:
+      - ./configs:/app/configs
+    restart: unless-stopped
+
+networks:
+  default:
+    name: iwallet_network
+    external: true
